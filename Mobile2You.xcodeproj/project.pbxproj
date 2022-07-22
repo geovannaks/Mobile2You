@@ -104,6 +104,9 @@
 		9A8D92DA2889E51F00E54D3E /* Mobile2You */ = {
 			isa = PBXGroup;
 			children = (
+				9AE636C2288A33D900D28CC4 /* Controller */,
+				9AE636C1288A33CD00D28CC4 /* View */,
+				9AE636C0288A33C600D28CC4 /* Modal */,
 				9A8D92DB2889E51F00E54D3E /* AppDelegate.swift */,
 				9A8D92DD2889E51F00E54D3E /* SceneDelegate.swift */,
 				9A8D92DF2889E51F00E54D3E /* ViewController.swift */,
@@ -131,13 +134,33 @@
 			path = Mobile2YouUITests;
 			sourceTree = "<group>";
 		};
+		9AE636C0288A33C600D28CC4 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		9AE636C1288A33CD00D28CC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AE636C2288A33D900D28CC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B747FE9A23E6C92E0694EC1A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				00B223A20CED9D9E7957D6B1 /* Pods-Mobile2You.debug.xcconfig */,
 				03660CC854461FF740DACB34 /* Pods-Mobile2You.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
